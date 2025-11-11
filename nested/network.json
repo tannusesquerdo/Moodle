@@ -234,11 +234,13 @@
             "apiVersion": "2019-11-01",
             "location": "[parameters('moodleCommon').location]",
             "name": "[parameters('moodleCommon').ctlrPipName]",
+            "sku": { "name": "Standard", "tier": "Regional" },
             "properties": {
                 "dnsSettings": {
                     "domainNameLabel": "[parameters('moodleCommon').ctlrPipName]"
                 },
-                "publicIPAllocationMethod": "Static"
+                "publicIPAllocationMethod": "Static",
+                "publicIPAddressVersion": "IPv4"
             },
             "tags": {
                 "displayName": "Controller VM Public IP"
