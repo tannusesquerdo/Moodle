@@ -3,6 +3,6 @@
     "redisDeploySwitch":    { "value": false },
     "dbServerType":         { "value": "mysql" },
     "fileServerType":       { "value": "nfs" },
-    "autoscaleVmSku":       { "value": "Standard_D2s_v5" },
+    "autoscaleVmSku":       { "value": "Standard_DS2_v2" },
     "fileServerDiskCount":  { "value": 2 }
 }

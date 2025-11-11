@@ -229,7 +229,7 @@ Type: string
 
 Possible Values: null
 
-Default: Standard_D2s_v5
+Default: Standard_DS2_v2
 
 
 ### webServerType
