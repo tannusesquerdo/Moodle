@@ -229,7 +229,7 @@ Type: string
 
 Possible Values: null
 
-Default: Standard_DS1_v2
+Default: Standard_D2s_v5
 
 
 ### webServerType
@@ -758,5 +758,3 @@ Type: string
 Possible Values: null
 
 Default: [resourceGroup().location]
-
-
